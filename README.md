@@ -11,11 +11,22 @@ The local-feature memory network facilitates learning and reproduction of local 
 The long-term periodic memory network efficiently learns multiperiodic structures, including low-frequency periodicities, from a long time series that preserves global shape characteristics. 
 Experiments on univariate and multivariate datasets from diverse domains demonstrate the effectiveness of each network and show that their integration achieves accurate reconstruction of normal time series while increasing reconstruction errors for anomalies.
 
-### 🗂 Dataset Setup
+## ⚙️ Environment Setup
+**Python version**: 3.9.5
+```bash
+# Create virtual environment
+python3.9 -m venv vlolo-env
+source vlolo-env/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 🗂 Dataset Setup
 - **SMD, MSL, SMAP, SWaT, PSM**: Download from [Google Drive](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR) and place into `../datasets/` folder.
 - **UCR Anomaly Archive**: Download from [GitHub repository](https://github.com/thuml/Large-Time-Series-Model/tree/main/scripts/anomaly_detection) and place into `../datasets/UCR_Anomaly/` folder.
 
-### 🚀 Training and Evaluation
+## 🚀 Training and Evaluation
 
 Run the shell scripts in the `scripts/` folder for each dataset:
 ```bash
