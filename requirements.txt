@@ -1,0 +1,17 @@
+# =============================================================================
+# VLoLo: Variable-wise Local-feature and Long-term periodic memory networks
+# Requirements for Python 3.9.25
+# =============================================================================
+
+torch==2.8.0
+numpy>=2.0.2
+pandas>=2.3.3
+scipy>=1.13.1
+scikit-learn>=1.6.1
+kmeans-pytorch>=0.3
+einops>=0.8.1
+reformer-pytorch>=1.4.4
+tqdm>=4.67.1
+statsmodels>=0.14.0
+vus>=0.0.6 
+matplotlib>=3.9.4

@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+.eggs/
+
+# Virtual environment
+vlolo-env/
+venv/
+.venv/
+
+# Trained models (large files)
+save_models/
+*.pth
+*.pt
+*.ckpt
+
+# Datasets (large files, redistribution issues)
+datasets/
+
+# Logs and outputs
+*.out
+*.log
+*.err
+logs/
+
+# Results (optional: include if you want to share)
+results/
+
+# ABCI specific
+*.sh.o*
+*.sh.e*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project-specific exclusions
+aggregate_results.py
+analyze_anomaly_positions.py
+setup_env.sh
+save_results/
+scripts_abci/
