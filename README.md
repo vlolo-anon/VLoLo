@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## 🗂 Dataset Setup
 - **SMD, MSL, SMAP, SWaT, PSM**: Download from [Google Drive](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR) and place into `../datasets/` folder.
-- **UCR Anomaly Archive**: Download from [GitHub repository](https://github.com/thuml/Large-Time-Series-Model/tree/main/scripts/anomaly_detection) and place into `../datasets/UCR_Anomaly/` folder.
+- **UCR Anomaly Archive**: Download from [GitHub repository](https://github.com/thuml/Large-Time-Series-Model/tree/main/scripts/anomaly_detection) and place into `../datasets/UCR_Anomaly_FullData/` folder.
 
 ## 🚀 Training and Evaluation
 
