@@ -39,11 +39,11 @@ bash scripts/run_msl.sh
 # SMAP
 bash scripts/run_smap.sh
 
-# PSM
-bash scripts/run_psm.sh
-
 # SWaT
 bash scripts/run_swat.sh
+
+# PSM
+bash scripts/run_psm.sh
 
 # UCR Anomaly Archive
 bash scripts/run_ucr.sh
